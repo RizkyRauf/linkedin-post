@@ -1,7 +1,7 @@
-FROM apify/actor-python-puppeteer:3.8
+FROM python:3.8-slim-bullseye
 
-COPY . /opt/playwright/python/
-WORKDIR /opt/playwright/python/
+COPY . /app
+WORKDIR /app
 
 RUN pip install --no-cache-dir -r requirements.txt
 
