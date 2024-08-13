@@ -1,0 +1,12 @@
+{
+    "name": "linkedin-scraper",
+    "version": "1.0.0",
+    "description": "Scraping data from LinkedIn",
+    "main": "main.py",
+    "dependencies": {
+      "python-dotenv": "^1.0.0"
+    },
+    "scripts": {
+      "start": "python main.py"
+    }
+  }

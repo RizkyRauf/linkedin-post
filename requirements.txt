@@ -1,4 +1,4 @@
 asyncio
-dotenv
+python-dotenv
 playwright
 python-dateutil
