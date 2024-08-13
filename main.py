@@ -145,9 +145,9 @@ async def main(url):
         await browser.close()
 
 if __name__ == "__main__":
-    # url = "http://www.linkedin.com/in/farahdh11/"
-    with open('url.txt', 'r') as f:
-        url = f.readline().strip()
-        for line in f:
-            url = line.strip()
-            asyncio.run(main(url))
+    url = "http://www.linkedin.com/in/farahdh11/"
+    # with open('url.txt', 'r') as f:
+    #     url = f.readline().strip()
+    #     for line in f:
+    #         url = line.strip()
+    #         asyncio.run(main(url))
